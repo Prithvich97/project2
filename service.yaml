@@ -7,9 +7,9 @@ spec:
     app: clo835-assignment-2
   ports:
   - protocol: TCP
-    port: 3030                    # Node Port internal (private)
-    targetPort: 3030              # Pod's port.
-    nodePort: 30002               # external port. Can't be the same as port.
+    port: 3030                    
+    targetPort: 3030              
+    nodePort: 30002              
   type: NodePort
 
   
